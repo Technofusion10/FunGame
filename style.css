@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3498db; /* Button color */
+    color: #fff; /* Text color */
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9; /* Button color on hover */
+}
